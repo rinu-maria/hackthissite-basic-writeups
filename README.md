@@ -28,7 +28,6 @@ Platform: https://hackthissite.org
 
 ## Skills Learned
 
-Through these challenges, I learned:
 
 - Website inspection using browser developer tools
 - HTML source code analysis
@@ -78,7 +77,6 @@ Each mission folder contains:
 
 ---
 
----
 
 ## Repository Structure
 hackthissite-basic-writeups/
@@ -118,8 +116,6 @@ hackthissite-basic-writeups/
 ├── Basic-11/
 │ └── README.md
 
-
----
 
 ---
 
