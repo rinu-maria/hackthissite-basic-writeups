@@ -60,8 +60,6 @@ These comments are not visible on the webpage itself, but they can be viewed usi
 
 In this case, the password was hidden inside an HTML comment.
 
----
-
 
 
 
