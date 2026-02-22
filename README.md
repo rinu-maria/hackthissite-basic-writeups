@@ -80,45 +80,44 @@ Each mission folder contains:
 
 ## Repository Structure
 
----
+```
 hackthissite-basic-writeups/
 │
 ├── README.md
 │
 ├── Basic-1/
-│ └── README.md
+│   └── README.md
 │
 ├── Basic-2/
-│ └── README.md
+│   └── README.md
 │
 ├── Basic-3/
-│ └── README.md
+│   └── README.md
 │
 ├── Basic-4/
-│ └── README.md
+│   └── README.md
 │
 ├── Basic-5/
-│ └── README.md
+│   └── README.md
 │
 ├── Basic-6/
-│ └── README.md
+│   └── README.md
 │
 ├── Basic-7/
-│ └── README.md
+│   └── README.md
 │
 ├── Basic-8/
-│ └── README.md
+│   └── README.md
 │
 ├── Basic-9/
-│ └── README.md
+│   └── README.md
 │
 ├── Basic-10/
-│ └── README.md
+│   └── README.md
 │
-├── Basic-11/
-│ └── README.md
-
----
+└── Basic-11/
+    └── README.md
+```
 ---
 
 ## What This Demonstrates
