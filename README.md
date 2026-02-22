@@ -79,6 +79,8 @@ Each mission folder contains:
 
 
 ## Repository Structure
+
+---
 hackthissite-basic-writeups/
 │
 ├── README.md
@@ -116,7 +118,7 @@ hackthissite-basic-writeups/
 ├── Basic-11/
 │ └── README.md
 
-
+---
 ---
 
 ## What This Demonstrates
