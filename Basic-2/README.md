@@ -55,7 +55,6 @@ Steps performed:
 The system grants access successfully.
 
 <img width="751" height="118" alt="image" src="https://github.com/user-attachments/assets/92a0f70f-ce16-44b5-9c36-aa141d0fcb60" />
-<img width="751" height="118" alt="image" src="https://github.com/user-attachments/assets/92a0f70f-ce16-44b5-9c36-aa141d0fcb60" />
 
 
 
@@ -64,12 +63,6 @@ This confirms that the authentication logic is flawed.
 ---
 
 
-## Tools Used
-
-- Web browser
-- Manual testing
-
----
 
 ## Explanation
 
