@@ -127,7 +127,7 @@ Mon Tue Wed Thu Fri Sat Sun
  31
 ```
 
-If user input is passed directly into a system command without proper validation, the application becomes vulnerable to OS command injection. This means additional commands can be executed alongside the intended one.
+If user input is passed directly into a system command without proper validation, the application becomes vulnerable to [OS Command Injection](https://owasp.org/www-community/attacks/Command_Injection). This means additional commands can be executed alongside the intended one.
 
 Since the program runs the cal command using the year provided, it is possible to append another command using the ; operator, which allows multiple commands to run sequentially in UNIX systems.
 
