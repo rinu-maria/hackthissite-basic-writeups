@@ -133,14 +133,13 @@ Since the program runs the cal command using the year provided, it is possible t
 
 For example:
 
-command1; command2; command3
+**command1; command2; command3**
 
 Each command executes in order.
 
 To test this vulnerability, the following input can be used:
-2012; ls
+**`2012; ls`**
 
-This causes the system to execute:
-cal 2012; ls
+This causes the system to execute: **`cal 2012; ls`**
 
 As a result, the output includes both the calendar for 2012 and a listing of files in the current directory.
