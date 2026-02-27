@@ -1,6 +1,5 @@
 # HackThisSite – Basic Mission 7 Writeup
 
----
 
 ## Challenge Overview
 
@@ -12,9 +11,10 @@ In other unrelated news, Sam has set up a script that returns the output from th
 
 ---
 
-or this challenge we're told that Sam has saved the unencrypted password file in the same directory that executes his publicly available calendar program. This calendar program takes as input a given year and passes it to the UNIX cal command. We can first try to use the program as it was intended by providing a random year like 2012, which under the hood looks like this cal 2012. 
+For this challenge we're told that Sam has saved the unencrypted password file in the same directory that executes his publicly available calendar program. This calendar program takes as input a given year and passes it to the UNIX cal command. We can first try to use the program as it was intended by providing a random year like 2012, which under the hood looks like this cal 2012. 
 The output is the following.
 
+```bash
        January 2012
 Mon Tue Wed Thu Fri Sat Sun
                           1
@@ -23,7 +23,6 @@ Mon Tue Wed Thu Fri Sat Sun
  16  17  18  19  20  21  22
  23  24  25  26  27  28  29
  30  31
-
 
 
        February 2012
@@ -35,7 +34,6 @@ Mon Tue Wed Thu Fri Sat Sun
  27  28  29
 
 
-
         March 2012
 Mon Tue Wed Thu Fri Sat Sun
               1   2   3   4
@@ -43,7 +41,6 @@ Mon Tue Wed Thu Fri Sat Sun
  12  13  14  15  16  17  18
  19  20  21  22  23  24  25
  26  27  28  29  30  31
-
 
 
         April 2012
@@ -56,7 +53,6 @@ Mon Tue Wed Thu Fri Sat Sun
  30
 
 
-
          May 2012
 Mon Tue Wed Thu Fri Sat Sun
       1   2   3   4   5   6
@@ -66,7 +62,6 @@ Mon Tue Wed Thu Fri Sat Sun
  28  29  30  31
 
 
-
          June 2012
 Mon Tue Wed Thu Fri Sat Sun
                   1   2   3
@@ -74,7 +69,6 @@ Mon Tue Wed Thu Fri Sat Sun
  11  12  13  14  15  16  17
  18  19  20  21  22  23  24
  25  26  27  28  29  30
-
 
 
          July 2012
@@ -87,7 +81,6 @@ Mon Tue Wed Thu Fri Sat Sun
  30  31
 
 
-
         August 2012
 Mon Tue Wed Thu Fri Sat Sun
           1   2   3   4   5
@@ -95,7 +88,6 @@ Mon Tue Wed Thu Fri Sat Sun
  13  14  15  16  17  18  19
  20  21  22  23  24  25  26
  27  28  29  30  31
-
 
 
       September 2012
@@ -107,7 +99,6 @@ Mon Tue Wed Thu Fri Sat Sun
  24  25  26  27  28  29  30
 
 
-
        October 2012
 Mon Tue Wed Thu Fri Sat Sun
   1   2   3   4   5   6   7
@@ -115,7 +106,6 @@ Mon Tue Wed Thu Fri Sat Sun
  15  16  17  18  19  20  21
  22  23  24  25  26  27  28
  29  30  31
-
 
 
        November 2012
@@ -127,7 +117,6 @@ Mon Tue Wed Thu Fri Sat Sun
  26  27  28  29  30
 
 
-
        December 2012
 Mon Tue Wed Thu Fri Sat Sun
                       1   2
@@ -136,6 +125,7 @@ Mon Tue Wed Thu Fri Sat Sun
  17  18  19  20  21  22  23
  24  25  26  27  28  29  30
  31
+```
 
 If user input is passed directly into a system command without proper validation, the application becomes vulnerable to OS command injection. This means additional commands can be executed alongside the intended one.
 
