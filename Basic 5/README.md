@@ -1,11 +1,11 @@
-## HackThisSite – Basic Mission 4 Writeup
+## HackThisSite – Basic Mission 5 Writeup
 
 ---
 
 ## Challenge Description
-An email script has been set up to send the password to the administrator.
+Similar to the previous challenge, but with some extra security measures in place. Requirements: HTML knowledge, JS or FF, an email address.
 
-Sam hardcoded the password into the script. Since the password is long and complex, he created a feature that emails the password to himself in case he forgets it.
+Sam has gotten wise to all the people who wrote their own forms to get the password. Rather than actually learn the password, he decided to make his email program a little more secure.
 
 ---
 
@@ -29,6 +29,7 @@ Hidden fields are not secure because users can edit them before submitting the f
 In the Elements tab, locate: value="sam@hackthissite.org"
 
 Replace it with your own account email address.
+
 ---
 
 ## Step 4 – Submit the Form
